@@ -1,6 +1,6 @@
 import math.E
 
-object App extends App {
+object L2 extends App {
   case class Section(start: Double, end: Double) {
     require(start < end)
   }
